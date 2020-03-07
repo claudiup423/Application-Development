@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREA
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/claudiu/Udacity/Route_Planning_Project/thirdparty/googletest/googletest/include -isystem /home/claudiu/Udacity/Route_Planning_Project/thirdparty/googletest/googletest 
+CXX_INCLUDES = -isystem /home/claudiu/portofoliu_ws/src/Application-Development/RoutePlanning/thirdparty/googletest/googletest/include -isystem /home/claudiu/portofoliu_ws/src/Application-Development/RoutePlanning/thirdparty/googletest/googletest 
 

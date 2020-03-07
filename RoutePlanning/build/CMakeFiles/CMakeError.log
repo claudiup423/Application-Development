@@ -1,24 +1,24 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/claudiu/Udacity/Route_Planning_Project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/claudiu/portofoliu_ws/src/Application-Development/RoutePlanning/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_2224d/fast && /usr/bin/make -f CMakeFiles/cmTC_2224d.dir/build.make CMakeFiles/cmTC_2224d.dir/build
-make[1]: Entering directory '/home/claudiu/Udacity/Route_Planning_Project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2224d.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_2224d.dir/src.c.o   -c /home/claudiu/Udacity/Route_Planning_Project/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_2224d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2224d.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_2224d.dir/src.c.o  -o cmTC_2224d 
-CMakeFiles/cmTC_2224d.dir/src.c.o: In function `main':
+Run Build Command(s):/usr/bin/make cmTC_e757d/fast && /usr/bin/make -f CMakeFiles/cmTC_e757d.dir/build.make CMakeFiles/cmTC_e757d.dir/build
+make[1]: Entering directory '/home/claudiu/portofoliu_ws/src/Application-Development/RoutePlanning/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e757d.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_e757d.dir/src.c.o   -c /home/claudiu/portofoliu_ws/src/Application-Development/RoutePlanning/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e757d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e757d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_e757d.dir/src.c.o  -o cmTC_e757d 
+CMakeFiles/cmTC_e757d.dir/src.c.o: In function `main':
 src.c:(.text+0x3e): undefined reference to `pthread_create'
 src.c:(.text+0x4a): undefined reference to `pthread_detach'
 src.c:(.text+0x5b): undefined reference to `pthread_join'
 src.c:(.text+0x6f): undefined reference to `pthread_atfork'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_2224d.dir/build.make:86: recipe for target 'cmTC_2224d' failed
-make[1]: *** [cmTC_2224d] Error 1
-make[1]: Leaving directory '/home/claudiu/Udacity/Route_Planning_Project/build/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_2224d/fast' failed
-make: *** [cmTC_2224d/fast] Error 2
+CMakeFiles/cmTC_e757d.dir/build.make:86: recipe for target 'cmTC_e757d' failed
+make[1]: *** [cmTC_e757d] Error 1
+make[1]: Leaving directory '/home/claudiu/portofoliu_ws/src/Application-Development/RoutePlanning/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_e757d/fast' failed
+make: *** [cmTC_e757d/fast] Error 2
 
 
 Source file was:
@@ -42,22 +42,22 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/claudiu/Udacity/Route_Planning_Project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/claudiu/portofoliu_ws/src/Application-Development/RoutePlanning/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_63d42/fast && /usr/bin/make -f CMakeFiles/cmTC_63d42.dir/build.make CMakeFiles/cmTC_63d42.dir/build
-make[1]: Entering directory '/home/claudiu/Udacity/Route_Planning_Project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_63d42.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_63d42.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_63d42
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63d42.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_63d42.dir/CheckFunctionExists.c.o  -o cmTC_63d42  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_0c260/fast && /usr/bin/make -f CMakeFiles/cmTC_0c260.dir/build.make CMakeFiles/cmTC_0c260.dir/build
+make[1]: Entering directory '/home/claudiu/portofoliu_ws/src/Application-Development/RoutePlanning/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c260.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0c260.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0c260
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c260.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0c260.dir/CheckFunctionExists.c.o  -o cmTC_0c260  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_63d42.dir/build.make:86: recipe for target 'cmTC_63d42' failed
-make[1]: *** [cmTC_63d42] Error 1
-make[1]: Leaving directory '/home/claudiu/Udacity/Route_Planning_Project/build/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_63d42/fast' failed
-make: *** [cmTC_63d42/fast] Error 2
+CMakeFiles/cmTC_0c260.dir/build.make:86: recipe for target 'cmTC_0c260' failed
+make[1]: *** [cmTC_0c260] Error 1
+make[1]: Leaving directory '/home/claudiu/portofoliu_ws/src/Application-Development/RoutePlanning/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_0c260/fast' failed
+make: *** [cmTC_0c260/fast] Error 2
 
 
 

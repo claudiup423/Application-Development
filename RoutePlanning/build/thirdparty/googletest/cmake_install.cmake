@@ -1,4 +1,4 @@
-# Install script for directory: /home/claudiu/Udacity/Route_Planning_Project/thirdparty/googletest
+# Install script for directory: /home/claudiu/portofoliu_ws/src/Application-Development/RoutePlanning/thirdparty/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/claudiu/Udacity/Route_Planning_Project/build/thirdparty/googletest/googlemock/cmake_install.cmake")
+  include("/home/claudiu/portofoliu_ws/src/Application-Development/RoutePlanning/build/thirdparty/googletest/googlemock/cmake_install.cmake")
 
 endif()
 
