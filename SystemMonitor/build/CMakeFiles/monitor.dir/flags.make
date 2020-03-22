@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/claudiu/Udacity/CppND-System-Monitor/include 
+CXX_INCLUDES = -I/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/include 
 

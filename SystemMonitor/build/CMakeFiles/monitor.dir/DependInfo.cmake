@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/claudiu/Udacity/CppND-System-Monitor/src/format.cpp" "/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles/monitor.dir/src/format.cpp.o"
-  "/home/claudiu/Udacity/CppND-System-Monitor/src/linux_parser.cpp" "/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
-  "/home/claudiu/Udacity/CppND-System-Monitor/src/main.cpp" "/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles/monitor.dir/src/main.cpp.o"
-  "/home/claudiu/Udacity/CppND-System-Monitor/src/ncurses_display.cpp" "/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
-  "/home/claudiu/Udacity/CppND-System-Monitor/src/process.cpp" "/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles/monitor.dir/src/process.cpp.o"
-  "/home/claudiu/Udacity/CppND-System-Monitor/src/processor.cpp" "/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles/monitor.dir/src/processor.cpp.o"
-  "/home/claudiu/Udacity/CppND-System-Monitor/src/system.cpp" "/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles/monitor.dir/src/system.cpp.o"
+  "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/format.cpp" "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles/monitor.dir/src/format.cpp.o"
+  "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/linux_parser.cpp" "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
+  "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/main.cpp" "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles/monitor.dir/src/main.cpp.o"
+  "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/ncurses_display.cpp" "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
+  "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/process.cpp" "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles/monitor.dir/src/process.cpp.o"
+  "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/processor.cpp" "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles/monitor.dir/src/processor.cpp.o"
+  "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/system.cpp" "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles/monitor.dir/src/system.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

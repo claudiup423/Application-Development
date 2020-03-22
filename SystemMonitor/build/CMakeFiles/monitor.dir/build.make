@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/claudiu/Udacity/CppND-System-Monitor
+CMAKE_SOURCE_DIR = /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/claudiu/Udacity/CppND-System-Monitor/build
+CMAKE_BINARY_DIR = /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/monitor.dir/depend.make
@@ -59,94 +59,94 @@ include CMakeFiles/monitor.dir/flags.make
 
 CMakeFiles/monitor.dir/src/format.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/format.cpp.o: ../src/format.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/monitor.dir/src/format.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/format.cpp.o -c /home/claudiu/Udacity/CppND-System-Monitor/src/format.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/monitor.dir/src/format.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/format.cpp.o -c /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/format.cpp
 
 CMakeFiles/monitor.dir/src/format.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/format.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudiu/Udacity/CppND-System-Monitor/src/format.cpp > CMakeFiles/monitor.dir/src/format.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/format.cpp > CMakeFiles/monitor.dir/src/format.cpp.i
 
 CMakeFiles/monitor.dir/src/format.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/format.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudiu/Udacity/CppND-System-Monitor/src/format.cpp -o CMakeFiles/monitor.dir/src/format.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/format.cpp -o CMakeFiles/monitor.dir/src/format.cpp.s
 
 CMakeFiles/monitor.dir/src/linux_parser.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/linux_parser.cpp.o: ../src/linux_parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/linux_parser.cpp.o -c /home/claudiu/Udacity/CppND-System-Monitor/src/linux_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/linux_parser.cpp.o -c /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/linux_parser.cpp
 
 CMakeFiles/monitor.dir/src/linux_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/linux_parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudiu/Udacity/CppND-System-Monitor/src/linux_parser.cpp > CMakeFiles/monitor.dir/src/linux_parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/linux_parser.cpp > CMakeFiles/monitor.dir/src/linux_parser.cpp.i
 
 CMakeFiles/monitor.dir/src/linux_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/linux_parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudiu/Udacity/CppND-System-Monitor/src/linux_parser.cpp -o CMakeFiles/monitor.dir/src/linux_parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/linux_parser.cpp -o CMakeFiles/monitor.dir/src/linux_parser.cpp.s
 
 CMakeFiles/monitor.dir/src/main.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/monitor.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/main.cpp.o -c /home/claudiu/Udacity/CppND-System-Monitor/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/monitor.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/main.cpp.o -c /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/main.cpp
 
 CMakeFiles/monitor.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudiu/Udacity/CppND-System-Monitor/src/main.cpp > CMakeFiles/monitor.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/main.cpp > CMakeFiles/monitor.dir/src/main.cpp.i
 
 CMakeFiles/monitor.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudiu/Udacity/CppND-System-Monitor/src/main.cpp -o CMakeFiles/monitor.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/main.cpp -o CMakeFiles/monitor.dir/src/main.cpp.s
 
 CMakeFiles/monitor.dir/src/ncurses_display.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/ncurses_display.cpp.o: ../src/ncurses_display.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/ncurses_display.cpp.o -c /home/claudiu/Udacity/CppND-System-Monitor/src/ncurses_display.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/ncurses_display.cpp.o -c /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/ncurses_display.cpp
 
 CMakeFiles/monitor.dir/src/ncurses_display.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/ncurses_display.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudiu/Udacity/CppND-System-Monitor/src/ncurses_display.cpp > CMakeFiles/monitor.dir/src/ncurses_display.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/ncurses_display.cpp > CMakeFiles/monitor.dir/src/ncurses_display.cpp.i
 
 CMakeFiles/monitor.dir/src/ncurses_display.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/ncurses_display.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudiu/Udacity/CppND-System-Monitor/src/ncurses_display.cpp -o CMakeFiles/monitor.dir/src/ncurses_display.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/ncurses_display.cpp -o CMakeFiles/monitor.dir/src/ncurses_display.cpp.s
 
 CMakeFiles/monitor.dir/src/process.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/process.cpp.o: ../src/process.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/monitor.dir/src/process.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/process.cpp.o -c /home/claudiu/Udacity/CppND-System-Monitor/src/process.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/monitor.dir/src/process.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/process.cpp.o -c /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/process.cpp
 
 CMakeFiles/monitor.dir/src/process.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/process.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudiu/Udacity/CppND-System-Monitor/src/process.cpp > CMakeFiles/monitor.dir/src/process.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/process.cpp > CMakeFiles/monitor.dir/src/process.cpp.i
 
 CMakeFiles/monitor.dir/src/process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/process.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudiu/Udacity/CppND-System-Monitor/src/process.cpp -o CMakeFiles/monitor.dir/src/process.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/process.cpp -o CMakeFiles/monitor.dir/src/process.cpp.s
 
 CMakeFiles/monitor.dir/src/processor.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/processor.cpp.o: ../src/processor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/monitor.dir/src/processor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/processor.cpp.o -c /home/claudiu/Udacity/CppND-System-Monitor/src/processor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/monitor.dir/src/processor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/processor.cpp.o -c /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/processor.cpp
 
 CMakeFiles/monitor.dir/src/processor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/processor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudiu/Udacity/CppND-System-Monitor/src/processor.cpp > CMakeFiles/monitor.dir/src/processor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/processor.cpp > CMakeFiles/monitor.dir/src/processor.cpp.i
 
 CMakeFiles/monitor.dir/src/processor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/processor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudiu/Udacity/CppND-System-Monitor/src/processor.cpp -o CMakeFiles/monitor.dir/src/processor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/processor.cpp -o CMakeFiles/monitor.dir/src/processor.cpp.s
 
 CMakeFiles/monitor.dir/src/system.cpp.o: CMakeFiles/monitor.dir/flags.make
 CMakeFiles/monitor.dir/src/system.cpp.o: ../src/system.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/monitor.dir/src/system.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/system.cpp.o -c /home/claudiu/Udacity/CppND-System-Monitor/src/system.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/monitor.dir/src/system.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/monitor.dir/src/system.cpp.o -c /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/system.cpp
 
 CMakeFiles/monitor.dir/src/system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monitor.dir/src/system.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudiu/Udacity/CppND-System-Monitor/src/system.cpp > CMakeFiles/monitor.dir/src/system.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/system.cpp > CMakeFiles/monitor.dir/src/system.cpp.i
 
 CMakeFiles/monitor.dir/src/system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monitor.dir/src/system.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudiu/Udacity/CppND-System-Monitor/src/system.cpp -o CMakeFiles/monitor.dir/src/system.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/system.cpp -o CMakeFiles/monitor.dir/src/system.cpp.s
 
 # Object files for target monitor
 monitor_OBJECTS = \
@@ -172,7 +172,7 @@ monitor: CMakeFiles/monitor.dir/build.make
 monitor: /usr/lib/x86_64-linux-gnu/libcurses.so
 monitor: /usr/lib/x86_64-linux-gnu/libform.so
 monitor: CMakeFiles/monitor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable monitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable monitor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/monitor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -185,6 +185,6 @@ CMakeFiles/monitor.dir/clean:
 .PHONY : CMakeFiles/monitor.dir/clean
 
 CMakeFiles/monitor.dir/depend:
-	cd /home/claudiu/Udacity/CppND-System-Monitor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudiu/Udacity/CppND-System-Monitor /home/claudiu/Udacity/CppND-System-Monitor /home/claudiu/Udacity/CppND-System-Monitor/build /home/claudiu/Udacity/CppND-System-Monitor/build /home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles/monitor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/CMakeFiles/monitor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/monitor.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/claudiu/Udacity/CppND-System-Monitor
+# Install script for directory: /home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/claudiu/Udacity/CppND-System-Monitor/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

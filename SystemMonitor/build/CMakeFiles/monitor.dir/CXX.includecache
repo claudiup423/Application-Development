@@ -24,7 +24,7 @@ string
 linux_parser.h
 ../include/linux_parser.h
 
-/home/claudiu/Udacity/CppND-System-Monitor/src/linux_parser.cpp
+/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/linux_parser.cpp
 dirent.h
 -
 unistd.h
@@ -34,7 +34,7 @@ string
 vector
 -
 linux_parser.h
-/home/claudiu/Udacity/CppND-System-Monitor/src/linux_parser.h
+/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/linux_parser.h
 read_file.h
-/home/claudiu/Udacity/CppND-System-Monitor/src/read_file.h
+/home/claudiu/portofoliu_ws/src/Application-Development/SystemMonitor/src/read_file.h
 

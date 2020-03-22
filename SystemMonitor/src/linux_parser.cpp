@@ -10,21 +10,23 @@ using std::stof;
 using std::string;
 using std::to_string;
 using std::vector;
+using std::ifstream;
+using std::istringstream;
 
 string LinuxParser::OperatingSystem() {
   string line;
   string key;
   string value;
-  std::ifstream filestream(kOSPath);
+  ifstream filestream(kOSPath);
   if (filestream.is_open()) {
-    while (std::getline(filestream, line)) {
-      std::replace(line.begin(), line.end(), ' ', '_');
-      std::replace(line.begin(), line.end(), '=', ' ');
-      std::replace(line.begin(), line.end(), '"', ' ');
+    while (getline(filestream, line)) {
+      replace(line.begin(), line.end(), ' ', '_');
+      replace(line.begin(), line.end(), '=', ' ');
+      replace(line.begin(), line.end(), '"', ' ');
       std::istringstream linestream(line);
       while (linestream >> key >> value) {
         if (key == "PRETTY_NAME") {
-          std::replace(value.begin(), value.end(), '_', ' ');
+          replace(value.begin(), value.end(), '_', ' ');
           return value;
         }
       }
@@ -36,10 +38,10 @@ string LinuxParser::OperatingSystem() {
 string LinuxParser::Kernel() {
   string os, version, kernel;
   string line;
-  std::ifstream stream(kProcDirectory + kVersionFilename);
+  ifstream stream(kProcDirectory + kVersionFilename);
   if (stream.is_open()) {
-    std::getline(stream, line);
-    std::istringstream linestream(line);
+    getline(stream, line);
+    istringstream linestream(line);
     linestream >> os >> version >> kernel;
   }
   return version + " " + kernel;
@@ -160,16 +162,16 @@ string LinuxParser::Ram(int pid)
 {  
   string key, value, kilob, line;
   int vmsize;
-  std::ifstream stream(kProcDirectory + std::to_string(pid) + kStatusFilename);
+  ifstream stream(kProcDirectory + std::to_string(pid) + kStatusFilename);
   if (stream.is_open()) {
     while (std::getline(stream, line)){
-  		std::istringstream linestream(line);
+  		istringstream linestream(line);
     	while (linestream >> key >> value >> kilob) {
         	if (key == "VmSize:") 
           { 
             vmsize = stoi(value); 
             vmsize = vmsize/1000;
-            return std::to_string(vmsize);
+            return to_string(vmsize);
           }
         	}
       	}
@@ -181,11 +183,11 @@ string LinuxParser::User(int pid)
 { 
   string usr, passwd, uid, line;
   string uid_ = LinuxParser::Uid(pid);
-  std::ifstream stream(kPasswordPath);
+  ifstream stream(kPasswordPath);
   if (stream.is_open()) {
-    while (std::getline(stream, line)){
-        std::replace(line.begin(), line.end(), ':', ' ');
-      std::istringstream linestream(line);
+    while (getline(stream, line)){
+        replace(line.begin(), line.end(), ':', ' ');
+      istringstream linestream(line);
     	while (linestream >> usr >> passwd >> uid) {
                if (uid==uid_){
                 return usr;
