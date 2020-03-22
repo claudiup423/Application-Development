@@ -1,3 +1,0 @@
-/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles/rebuild_cache.dir
-/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles/monitor.dir
-/home/claudiu/Udacity/CppND-System-Monitor/build/CMakeFiles/edit_cache.dir
