@@ -13,7 +13,8 @@ using std::vector;
 using std::ifstream;
 using std::istringstream;
 
-string LinuxParser::OperatingSystem() {
+string LinuxParser::OperatingSystem() 
+{
   string line;
   string key;
   string value;
@@ -35,7 +36,8 @@ string LinuxParser::OperatingSystem() {
   return value;
 }
 
-string LinuxParser::Kernel() {
+string LinuxParser::Kernel() 
+{
   string os, version, kernel;
   string line;
   ifstream stream(kProcDirectory + kVersionFilename);
@@ -47,7 +49,8 @@ string LinuxParser::Kernel() {
   return version + " " + kernel;
 }
 
-vector<int> LinuxParser::Pids() {
+vector<int> LinuxParser::Pids() 
+{
   vector<int> pids;
   DIR* directory = opendir(kProcDirectory.c_str());
   struct dirent* file;

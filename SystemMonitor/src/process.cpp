@@ -12,7 +12,8 @@ using std::string;
 using std::to_string;
 using std::vector;
 
-Process::Process(int pid) {
+Process::Process(int pid) 
+{
   this -> pid = pid;
   this -> cpu = Process::CpuUtilization();
   this -> command = LinuxParser::Command(this -> pid);
@@ -38,6 +39,4 @@ string Process::User() { return LinuxParser::User(this -> pid); }
 
 long int Process::UpTime() { return LinuxParser::UpTime(this -> pid); }
 
-bool Process::operator<(Process const& a) const { 
-  return this -> cpu > a.cpu; 
-}
+bool Process::operator<(Process const& a) const {return this -> cpu > a.cpu;}
